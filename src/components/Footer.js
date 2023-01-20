@@ -7,7 +7,7 @@ import { FaPinterestSquare } from 'react-icons/fa';
 const Footer = () => {
     return (
 
-        <footer className="border-t-2 border-[#D2AC47] text-gray-800 body-font bg-white p-4">
+        <footer className="border-t-2 border-[#D2AC47] text-gray-800 body-font bg-[#FFFFF4] p-4">
 
             {/* Logo and contact */}
             <div className="container px-[20px] py-[50px] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col sm:flex-nowrap flex-wrap flex-col">

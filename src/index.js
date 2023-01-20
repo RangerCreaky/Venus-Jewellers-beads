@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Signup from './components/Signup';
 import About from './components/About';
+import Contact from './components/Contact';
 
 import './index.css';
 
@@ -21,7 +22,7 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/about' element={<About />} />
         <Route path='/shop' element={<Shop />} />
-        {/* <Route path='/' element={<App />} /> */}
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Signup />
       <Footer />
