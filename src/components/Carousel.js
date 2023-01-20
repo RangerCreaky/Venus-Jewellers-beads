@@ -4,13 +4,16 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 function App() {
   const slides = [
     {
-      url: './images/carousel/carousel1.jpg',
+      url: './images/carousel/desktop/banner1.png',
+      urlmob: './images/carousel/mobile/banner1.png'
     },
     {
-      url: './images/carousel/carousel2.jpg',
+      url: './images/carousel/desktop/banner2.png',
+      urlmob: './images/carousel/mobile/banner2.png'
     },
     {
-      url: './images/carousel/carousel3.jpg',
+      url: './images/carousel/desktop/banner3.png',
+      urlmob: './images/carousel/mobile/banner3.png'
     },
   ];
 
@@ -30,12 +33,13 @@ function App() {
 
   return (
     <div className='max-w-screen h-[88vh] m-auto group'>
+      <div className='w-full md:h-[104px] h-[180px] -z-10 bg-white'></div>
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full flex bg-center bg-cover duration-500'
+        className='w-screen h-[88vh-104px] bg-cover flex duration-500'
       >
         <p>  </p>
-        <img className="" src={`${slides[currentIndex].url}`} alt="carousel 1" />
+        <img className="md:block hidden h-full w-full" src={`${slides[currentIndex].url}`} alt="carousel 1" />
+        <img className="block md:hidden h-full w-full" src={`${slides[currentIndex].urlmob}`} alt="carousel 1" />
       </div>
 
 

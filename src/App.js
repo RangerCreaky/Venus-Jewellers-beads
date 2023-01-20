@@ -24,7 +24,7 @@ const App = () => {
                 {renderSmallCards()}
             </div>
 
-            <div className='mt-16 flex flex-col justify-center items-center'>
+            <div className='text-center flex flex-col justify-center items-center'>
                 <h2 className='text-5xl font-bold text-bg-800'> Featured Collection </h2>
                 <hr className='w-40 h-1 mt-4 bg-[#D2AC47]' />
                 <p className='text-lg mt-4'> Brand new beads collection </p>

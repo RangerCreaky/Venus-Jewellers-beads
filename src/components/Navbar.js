@@ -59,22 +59,22 @@ const Navbar = () => {
           <div>
             <div className="flex list-none justify-between items-center">
               <li className="mx-2">
-                <a href="https://www.facebook.com/venusjewellerswarangal/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
+                <a href="https://www.facebook.com/venusjewellersgold" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
               </li>
               <li className="mx-2">
-                <a href="https://www.instagram.com/_venus_jewellers_/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><BsInstagram /></a>
+                <a href="https://www.instagram.com/venusjewellersonline/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><BsInstagram /></a>
               </li>
               <li className="mx-2">
-                <a href="https://twitter.com/venus_jewellers" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
+                <a href="https://twitter.com/venus_jewellers" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
               </li>
               <li className="mx-2">
-                <a href="https://in.pinterest.com/venusdigitalteam/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaPinterestSquare /></a>
+                <a href="https://in.pinterest.com/venusdigitalteam/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaPinterestSquare /></a>
               </li>
               <li className="mx-2">
-                <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
+                <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
               </li>
               <li className="mx-2">
-                <a href="https://www.youtube.com/shorts/j4fr2HcFNio" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutube /></a>
+                <a href="https://www.youtube.com/shorts/j4fr2HcFNio" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutube /></a>
               </li>
             </div>
           </div>
