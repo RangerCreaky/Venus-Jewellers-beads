@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Card from './Card';
 import { cards } from '../utils/cards';
 
 const Shop = () => {
+    const [open, setOpen] = useState(true);
     const renderCards = () => {
         return cards.map(card => {
             return <Card src={card.src} text={card.text} price={card.price} />
@@ -15,7 +16,7 @@ const Shop = () => {
         <div class="bg-white">
             <div>
 
-                <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
+                {open && <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
 
                     <div class="fixed inset-0 bg-black bg-opacity-25"></div>
 
@@ -26,7 +27,7 @@ const Shop = () => {
                                 <h2 class="text-lg font-medium text-gray-900">Filters</h2>
                                 <button type="button" class="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400">
                                     <span class="sr-only">Close menu</span>
-                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <svg onClick={() => setOpen(false)} class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                     </svg>
                                 </button>
@@ -152,7 +153,7 @@ const Shop = () => {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div>}
 
                 <main class="mx-auto max-w-7xl px-4">
                     <div class="flex items-baseline justify-between border-b border-gray-200 pt-32 pb-6">
@@ -162,8 +163,8 @@ const Shop = () => {
                     <section aria-labelledby="products-heading" class="pt-6 pb-24">
                         <h2 id="products-heading" class="sr-only">Products</h2>
 
-                        <div class="flex ">
-                            <form class="w-1/2">
+                        <div class="flex justify-center">
+                            <form class="hidden sm:block w-1/2">
                                 <h3 class="sr-only">Categories</h3>
                                 <ul class="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
                                     <li>
