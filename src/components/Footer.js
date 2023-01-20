@@ -3,6 +3,8 @@ import { ImFacebook2 } from 'react-icons/im';
 import { BsInstagram } from 'react-icons/bs';
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaPinterestSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -13,10 +15,10 @@ const Footer = () => {
             <div className="container px-[20px] py-[50px] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col sm:flex-nowrap flex-wrap flex-col">
 
                 {/* Logo */}
-                <div className="rounded-lg shadow-2xl w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <NavLink to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-                        <div className="flex bg-white p-2 rounded-lg">
-                            <img className=" w-92 h-92 " src="./images/logo/logo-full.webp" alt="logo" />
+                        <div className="flex bg-[#FFFFF4] p-2 rounded-lg">
+                            <img className=" w-92 h-92 " src="./images/logo/logo-full.png" alt="logo" />
 
                         </div>
                     </NavLink>
@@ -60,18 +62,24 @@ const Footer = () => {
                     {/* Social media */}
                     <div className=" px-4">
                         <nav className="list-none mb-10 ml-12 ">
-                            <div className="flex flex-col ">
-                                <li className="mt-0 flex">
+                            <div className="flex flex md:flex-col flex-wrap justify-center align-center">
+                                <li className="md:mt-0 md:flex mx-2">
                                     <a href="https://www.facebook.com/venusjewellerswarangal/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
                                 </li>
-                                <li className="mt-4">
+                                <li className="md:mt-4 mx-2">
                                     <a href="https://www.instagram.com/_venus_jewellers_/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><BsInstagram /></a>
                                 </li>
-                                <li className="mt-4">
+                                <li className="md:mt-4 mx-2">
                                     <a href="https://twitter.com/venus_jewellers" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
                                 </li>
-                                <li className="mt-4">
+                                <li className="md:mt-4 mx-2">
                                     <a href="https://in.pinterest.com/venusdigitalteam/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaPinterestSquare /></a>
+                                </li>
+                                <li className="md:mt-4 mx-2">
+                                    <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
+                                </li>
+                                <li className="md:mt-4 mx-2">
+                                    <a href="https://www.youtube.com/shorts/j4fr2HcFNio" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutube /></a>
                                 </li>
                             </div>
                         </nav>

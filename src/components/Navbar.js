@@ -1,16 +1,22 @@
 import React from "react";
+import { ImFacebook2 } from 'react-icons/im';
+import { BsInstagram } from 'react-icons/bs';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaPinterestSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <header className="text-[#D2AC47] body-font bg-[#FFFFF4] border-b-2 border-[#D2AC47] fixed w-full z-10">
-        <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <NavLink
             to="/"
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           >
-            <div className="flex bg-white p-2 rounded-lg">
+            <div className="flex bg-[#FFFFF4] p-2 rounded-lg">
               <img
                 className="w-12 h-12 "
                 src="./images/logo/logo.png"
@@ -23,7 +29,8 @@ const Navbar = () => {
               />
             </div>
           </NavLink >
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <NavLink
               to="/"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
@@ -43,12 +50,34 @@ const Navbar = () => {
               About
             </NavLink >
             <NavLink
-              to="/contact"
+              to="/enquire"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
-              Contact
+              Enquire
             </NavLink >
           </nav>
+          <div>
+            <div className="flex list-none justify-between items-center">
+              <li className="mx-2">
+                <a href="https://www.facebook.com/venusjewellerswarangal/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
+              </li>
+              <li className="mx-2">
+                <a href="https://www.instagram.com/_venus_jewellers_/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><BsInstagram /></a>
+              </li>
+              <li className="mx-2">
+                <a href="https://twitter.com/venus_jewellers" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
+              </li>
+              <li className="mx-2">
+                <a href="https://in.pinterest.com/venusdigitalteam/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaPinterestSquare /></a>
+              </li>
+              <li className="mx-2">
+                <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
+              </li>
+              <li className="mx-2">
+                <a href="https://www.youtube.com/shorts/j4fr2HcFNio" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutube /></a>
+              </li>
+            </div>
+          </div>
         </div>
       </header>
     </>
