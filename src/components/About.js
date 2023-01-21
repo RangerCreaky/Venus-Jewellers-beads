@@ -4,14 +4,7 @@ const About = () => {
     return (
         <>
             {/* <Navbar /> */}
-            <div className="relative overflow-hidden bg-no-repeat bg-cover -z-10">
-                <img
-                    className="w-screen h-full"
-                    src="./images/carousel/aboutUs.jpg"
-                    alt="about us"
-                />
-                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-[#D2AC47] opacity-50"></div>
-            </div>
+            <div className='w-full md:h-[104px] h-[210px] -z-10 bg-white'></div>
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">

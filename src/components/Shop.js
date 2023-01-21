@@ -34,7 +34,7 @@ const Shop = () => {
                             </div>
 
 
-                            <form class="w-1/2">
+                            <form class="m-8">
                                 <h3 class="sr-only">Categories</h3>
                                 <ul class="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
                                     <li>
@@ -282,7 +282,7 @@ const Shop = () => {
                                 </div>
                             </form>
 
-                            <div class="ml-4 flex flex-col md:flex-row justify-center items-center flex-wrap">
+                            <div class="sm:ml-4 flex flex-col md:flex-row justify-center items-center flex-wrap">
                                 {renderCards()}
                             </div>
 
