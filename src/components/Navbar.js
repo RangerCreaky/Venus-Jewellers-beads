@@ -55,9 +55,15 @@ const Navbar = () => {
             >
               Enquire
             </NavLink >
+            <NavLink
+              to="/contact"
+              className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
+            >
+              Contact
+            </NavLink >
           </nav>
           <div>
-            <div className="flex list-none justify-between items-center">
+            <div className="flex list-none justify-between items-center mt-4 sm:mt-0">
               <li className="mx-2">
                 <a href="https://www.facebook.com/venusjewellersgold" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
               </li>

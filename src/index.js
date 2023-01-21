@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Signup from './components/Signup';
 import About from './components/About';
 import Contact from './components/Contact';
+import Enquire from './components/Enquire';
 
 import './index.css';
 
@@ -22,7 +23,8 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/about' element={<About />} />
         <Route path='/shop' element={<Shop />} />
-        <Route path='/enquire' element={<Contact />} />
+        <Route path='/enquire' element={<Enquire />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Signup />
       <Footer />
