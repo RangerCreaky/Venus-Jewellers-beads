@@ -61,7 +61,7 @@ const Footer = () => {
 
                     {/* Social media */}
                     <div className=" px-4">
-                        <nav className="list-none mb-10 ml-12 ">
+                        <nav className="list-none sm:mb-10 sm:ml-12 ">
                             <div className="flex flex md:flex-col flex-wrap justify-center align-center">
                                 <li className="md:mt-0 md:flex mx-2">
                                     <a href="https://www.facebook.com/venusjewellerswarangal/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
