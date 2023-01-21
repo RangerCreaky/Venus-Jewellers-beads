@@ -35,7 +35,7 @@ function App() {
     <div className='max-w-screen h-[88vh] m-auto group'>
       <div className='w-full md:h-[104px] h-[180px] -z-10 bg-white'></div>
       <div
-        className='w-screen h-[88vh-104px] bg-cover flex duration-500'
+        className='w-full h-[88vh-104px] bg-cover flex duration-500'
       >
         <p>  </p>
         <img className="md:block hidden h-full w-full" src={`${slides[currentIndex].url}`} alt="carousel 1" />
