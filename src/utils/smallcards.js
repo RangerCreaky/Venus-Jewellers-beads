@@ -5,19 +5,19 @@ export const smallcards = [
     },
     {
         src: "./images/smallcards/f2.png",
-        text: "Online order"
+        text: "Online Order"
     },
     {
         src: "./images/smallcards/f3.png",
-        text: "Save money"
+        text: "Save Money"
     },
     {
         src: "./images/smallcards/f4.png",
-        text: "Attractive beads"
+        text: "Attractive Beads"
     },
     {
         src: "./images/smallcards/f5.png",
-        text: "Happy customers"
+        text: "Happy Customers"
     },
     {
         src: "./images/smallcards/f6.png",
