@@ -1,10 +1,10 @@
 import React from "react";
-import { ImFacebook2 } from 'react-icons/im';
-import { BsInstagram } from 'react-icons/bs';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaPinterestSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
+import { FaYoutubeSquare } from 'react-icons/fa'
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -65,10 +65,10 @@ const Navbar = () => {
           <div>
             <div className="flex list-none justify-between items-center mt-4 sm:mt-0">
               <li className="mx-2">
-                <a href="https://www.facebook.com/venusjewellersgold" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
+                <a href="https://www.facebook.com/venusjewellersgold" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaFacebookSquare /> </a>
               </li>
               <li className="mx-2">
-                <a href="https://www.instagram.com/venusjewellersonline/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><BsInstagram /></a>
+                <a href="https://www.instagram.com/venusjewellersonline/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaInstagramSquare /></a>
               </li>
               <li className="mx-2">
                 <a href="https://twitter.com/venus_jewellers" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
               </li>
               <li className="mx-2">
-                <a href="https://www.youtube.com/shorts/j4fr2HcFNio" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutube /></a>
+                <a href="https://www.youtube.com/shorts/j4fr2HcFNio" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutubeSquare /></a>
               </li>
             </div>
           </div>

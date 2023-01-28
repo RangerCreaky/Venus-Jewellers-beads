@@ -19,7 +19,7 @@ const About = () => {
                             About Us
                             <br class="hidden lg:inline-block" />
                         </h1>
-                        <p class="mb-8 leading-relaxed text-gray-900">
+                        <p class="mb-8 leading-relaxed text-gray-900 text-left">
                             The journey of success began with the first retail showroom at
                             Hanamakonda in 1986 and second at Chikkadapally, Hyderabad. We
                             launched our flagship store Hanamkonda in October 2019. Skilled

@@ -1,26 +1,28 @@
 import React from 'react';
-import Carousel from './components/Carousel';
-import CardSmall from './components/CardSmall';
-import Card from './components/Card';
-import { smallcards } from './utils/smallcards';
-import { featured } from './utils/featured';
+// import Carousel from './components/Carousel';
+// import CardSmall from './components/CardSmall';
+// import Card from './components/Card';
+// import { smallcards } from './utils/smallcards';
+// import { featured } from './utils/featured';
+import Item from './components/Item';
 
 const App = () => {
-    const renderSmallCards = () => {
-        return smallcards.map((card) => {
-            return <CardSmall src={card.src} text={card.text} />
-        })
-    }
+    // const renderSmallCards = () => {
+    //     return smallcards.map((card) => {
+    //         return <CardSmall src={card.src} text={card.text} />
+    //     })
+    // }
 
-    const renderFeatured = () => {
-        return featured.map((card) => {
-            return <Card src={card.src} text={card.text} price={card.price} />
-        })
-    }
+    // const renderFeatured = () => {
+    //     return featured.map((card) => {
+    //         return <Card src={card.src} text={card.text} price={card.price} />
+    //     })
+    // }
     return (
         <div className='scroll-smooth bg-white'>
-            <Carousel />
-            <div className='flex mt-8 flex-col md:flex-row justify-center items-center'>
+            {/* <Carousel /> */}
+            <Item />
+            {/* <div className='flex mt-8 flex-col md:flex-row justify-center items-center'>
                 {renderSmallCards()}
             </div>
 
@@ -32,7 +34,7 @@ const App = () => {
 
             <div className='flex m-8 flex-col md:flex-row justify-center items-center'>
                 {renderFeatured()}
-            </div>
+            </div> */}
         </div>
     )
 }
