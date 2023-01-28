@@ -2,7 +2,7 @@ const ContactUs = () => {
     return (
         <>
             <div className='w-full md:h-[104px] h-[180px] -z-10 bg-white'></div>
-            <div class="container px-5 py-24 justify-around items-center flex sm:flex-nowrap flex-wrap ">
+            <div class="px-5 py-24 flex justify-around items-center sm:flex-nowrap flex-wrap">
                 <div className=' flex flex-col justify-center items-center'>
                     <h2 className='text-center text-4xl font-bold text-bg-800'> Hyderabad </h2>
                     <hr className='w-28 h-1 mt-4 bg-[#D2AC47]' />

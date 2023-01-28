@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className="border-t-2 border-[#D2AC47] text-gray-800 body-font bg-[#FFFFF4] p-4">
 
             {/* Logo and contact */}
-            <div className="container px-[20px] py-[50px] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col sm:flex-nowrap flex-wrap flex-col">
+            <div className="container px-[20px] py-[50px] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap sm:flex-nowrap flex-wrap flex-col">
 
                 {/* Logo */}
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
 
                 {/* Contact and social media */}
-                <div className="flex flex flex mt-[20px] md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center sm:flex-nowrap flex-wrap ">
+                <div className="flex md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center sm:flex-nowrap flex-wrap ">
                     <div className=" px-4">
                         <nav className="list-none mb-10">
                             <li className="border-b-2 border-[#D2AC47] mb-4">
@@ -62,7 +62,7 @@ const Footer = () => {
                     {/* Social media */}
                     <div className=" px-4">
                         <nav className="list-none sm:mb-10 sm:ml-12 ">
-                            <div className="flex flex md:flex-col flex-wrap justify-center align-center">
+                            <div className="flex md:flex-col flex-wrap justify-center align-center">
                                 <li className="md:mt-0 md:flex mx-2">
                                     <a href="https://www.facebook.com/venusjewellerswarangal/" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><ImFacebook2 /> </a>
                                 </li>

@@ -28,7 +28,7 @@ const Navbar = () => {
                 alt="logo"
               />
             </div>
-          </NavLink >
+          </NavLink>
 
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <NavLink
@@ -36,31 +36,31 @@ const Navbar = () => {
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
               Home
-            </NavLink >
+            </NavLink>
             <NavLink
               to="/shop"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
               Shop
-            </NavLink >
+            </NavLink>
             <NavLink
               to="/about"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
               About
-            </NavLink >
+            </NavLink>
             <NavLink
               to="/enquire"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
               Enquire
-            </NavLink >
+            </NavLink>
             <NavLink
               to="/contact"
               className="mr-5 hover:text-gray-900 cursor-pointer font-medium tracking-widest uppercase text-lg"
             >
               Contact
-            </NavLink >
+            </NavLink>
           </nav>
           <div>
             <div className="flex list-none justify-between items-center mt-4 sm:mt-0">
@@ -71,13 +71,34 @@ const Navbar = () => {
                 <a href="https://www.instagram.com/venusjewellersonline/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaInstagramSquare /></a>
               </li>
               <li className="mx-2">
-                <a href="https://twitter.com/venus_jewellers" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaTwitterSquare /></a>
+                <a
+                  href="https://twitter.com/venus_jewellers"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"
+                >
+                  <FaTwitterSquare />
+                </a>
               </li>
               <li className="mx-2">
-                <a href="https://in.pinterest.com/venusdigitalteam/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaPinterestSquare /></a>
+                <a
+                  href="https://in.pinterest.com/venusdigitalteam/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"
+                >
+                  <FaPinterestSquare />
+                </a>
               </li>
               <li className="mx-2">
-                <a href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaLinkedin /></a>
+                <a
+                  href="https://www.linkedin.com/in/venus-jewellers-online-aa8385250/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"
+                >
+                  <FaLinkedin />
+                </a>
               </li>
               <li className="mx-2">
                 <a href="https://www.youtube.com/shorts/j4fr2HcFNio" target="_blank" rel="noreferrer" className="text-[29px] text-[#D2AC47] cursor-pointer hover:text-gray-500"><FaYoutubeSquare /></a>
