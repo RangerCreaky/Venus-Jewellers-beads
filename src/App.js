@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import { smallcards } from "./utils/smallcards";
 import { featured } from "./utils/featured";
 
+
 const App = () => {
   const renderSmallCards = () => {
     return smallcards.map((card) => {
